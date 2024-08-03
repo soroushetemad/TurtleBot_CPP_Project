@@ -44,6 +44,3 @@ This file contains the client code that sends navigation requests to the action 
 ## Additional Information
 - Ensure that all dependencies are installed and properly configured.
 - The parameter file `waypoint_params.yaml` should be placed in the appropriate directory as specified in your ROS2 project structure.
-- The camera topics should be correctly named and configured to ensure proper detection of the floating parts.
-
-For more detailed information on ROS2 and using colcon for building packages, refer to the official [ROS2 documentation](https://docs.ros.org/en/foxy/index.html).
