@@ -2,6 +2,12 @@
 ## By: Soroush Etemad and Harsh Senjaliya  
 ## Overview
 Presented with an environment containing one TurtleBot, five cameras, and five floating parts (batteries), the objective is to maneuver the robot sequentially under each part in the order specified by the 'waypoint_param.yaml'.
+The current default order of the waypoints is as follows:
+   1. waypoint1: 'green'
+   2. waypoint2: 'red'
+   3. waypoint3: 'orange'
+   4. waypoint4: 'purple'
+   5. waypoint5: 'blue'
 
 ## Objectives
 - The sequence for robot movement is specified in the parameter file `waypoint_params.yaml`. Feel free to modify the order of the batteries to test the code!
