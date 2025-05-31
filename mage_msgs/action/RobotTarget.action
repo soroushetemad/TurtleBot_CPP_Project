@@ -1,0 +1,13 @@
+# RobotTarget.action
+
+# Define the goal message
+geometry_msgs/Point target
+---
+
+# Define the result message
+bool success
+string message
+---
+
+# Define the feedback message
+float64 distance_to_goal
